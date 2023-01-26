@@ -1,0 +1,56 @@
+.remark-card {
+    background-color: #edf0ff;
+    border-radius: 0.75rem;
+    padding: 1.125rem 1.5rem 2rem;
+    max-width: 20.625rem;
+    min-height: 25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+
+.rotate-n-3deg {
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.mx-8 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.mx-8 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.remark-card-quote {
+    font-size: 5.375rem;
+    line-height: .7;
+    font-weight: 700;
+}
+
+.remark-card-author {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.remark-card-author-avatar {
+    background-color: rgba(18,0,54,.1);
+    border-radius: 50%;
+    height: 2.5rem;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 2.5rem;
+}

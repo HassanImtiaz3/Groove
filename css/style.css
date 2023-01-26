@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body
+{
+    font-family: Graphik,"Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1.3fr;
+    grid-template-rows: 0.3fr 1.5fr 0.5fr 0.4fr 0.4fr 1.5fr 1.5fr 0.4fr 1.5fr 
+    1.5fr 0.4fr 1fr 0.4fr 0.4fr 1.5fr 1fr 0.5fr 1.5fr;
+
+    grid-template-areas: 
+    "nav nav nav"
+    "hero1 hero1 hero2"
+    "badges badges badges"
+    "sticker1 sticker1 sticker1"
+    "writing1 writing1 writing1"
+    "hero3 hero3 hero4"
+    "hero5 hero6 hero6"
+    "sticker2 sticker2 sticker2"
+    "hero7 hero7 hero8"
+    "sticker3 sticker3 sticker3"
+    "tool tool tool"
+    "sticker4 sticker4 sticker4"
+    "writing2 writing2 writing2"
+    "card1 card2 card3"
+    "trial trial trial"
+    "brand brand brand"
+    "footer footer footer";
+
+    column-gap: 5px;
+    row-gap: 5px;
+    ;
+
+    
+
+}
+
+nav{
+    grid-area: nav;
+}
+
+.hero1{
+    grid-area: hero1;
+}
+
+.hero2{
+    grid-area: hero2;
+}
+
+.hero3{
+    grid-area: hero3;
+}
+
+.hero4{
+    grid-area: hero4;
+}
+
+.hero5{
+    
+    grid-area: hero5;
+}
+
+
+.hero6{
+    
+    grid-area: hero6;
+}
+
+.hero7{
+    grid-area: hero7;
+}
+
+.hero8{
+    grid-area: hero8;
+}
+
+.badges{
+    grid-area: badges;
+}
+
+.sticker1{
+    grid-area: sticker1;
+}
+
+.sticker2{
+    grid-area: sticker2;
+}
+
+
+.sticker3{
+    grid-area: sticker3;
+}
+
+
+.sticker4{
+    grid-area: sticker4;
+}
+
+
+.writing1{
+    grid-area: writing1;
+}
+
+.writing2{
+    grid-area: writing2;
+}
+
+.card1{
+    grid-area: card1;
+}
+
+.card2{
+    grid-area: card2;
+}
+
+.card3{
+    grid-area: card3;
+}
+
+.trial{
+    grid-area: trial;
+}
+
+.tool{
+    grid-area: tool;
+}
+
+.brand{
+    grid-area: brand;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+@media only screen and (max-width: 768px) 
+{
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.5fr 0.1fr 0.1fr 0.5fr 
+        0.5fr 0.5fr 0.5fr 0.1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.1fr 
+        0.1fr 0.3fr 0.1fr 0.1fr 
+        0.5fr 0.5fr 0.5fr 0.5fr 0.3fr 0.5fr;
+
+        grid-template-areas: 
+        "nav"
+        "hero1"
+        "hero2"
+        "badges"
+        "sticker1"
+        "writing1"
+        "hero3"
+        "hero4"
+        "hero5"
+        "hero6"
+        "sticker2"
+        "hero7"
+        "hero8"
+        "sticker3"
+        "tool"
+        "sticker4"
+        "writing2"
+        "card1"
+        "card2"
+        "card3"
+        "trial"
+        "brand"
+        "footer";
+        ;
+    }
+
+    .hero1{
+        display: block;
+      }
+
+      .hero2{
+        display: block;
+        margin-left: 55px ;
+      }
+}

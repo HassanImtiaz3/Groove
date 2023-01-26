@@ -1,0 +1,17 @@
+.badges
+{
+    margin-top: 60px;
+    /* width: 100%; */
+    padding: 50px;
+}
+
+.g2-card-star svg {
+    margin: 0 0.3125rem;
+    color: #e8aa08;
+}
+
+.badges1
+{
+    width: 100%;
+    padding: 25px;
+}

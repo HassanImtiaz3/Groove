@@ -1,0 +1,26 @@
+.stickerimg1{
+    margin-top: 5px;
+    width: 45%;
+    transform: rotate(-3deg);
+}
+
+
+.stickerimg2{
+    margin-top: 5px;
+    width: 45%;
+    transform: rotate(3deg);
+}
+
+.stickerimg3{
+    margin-top: 5px;
+    width: 45%;
+    transform: rotate(-2deg);
+}
+
+.stickerimg4{
+    margin-top: 5px;
+    width: 45%;
+    transform: rotate(-2deg);
+}
+
+

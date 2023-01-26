@@ -1,0 +1,63 @@
+.circle {
+    border-radius: 55%;
+    width: 40%;
+    height: 40%;
+    padding: 1px 5px 1px 5px;
+    background: black;
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    font: 45px Arial, sans-serif;
+}
+
+.writing1{
+    margin-top: 60px;
+    font-size: 1.175rem;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.writing2{
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+@media(max-width: 768px)
+{
+    .writing1{
+        margin-top: 50px;
+        font-size: 0.875rem;
+        font-weight: 900;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .writing2{
+        margin-top: 50px;
+        font-size: 0.775rem;
+        font-weight: 900;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .circle {
+        border-radius: 55%;
+        width: 10%;
+        height: 10%;
+        padding: 1px 5px 1px 5px;
+        background: black;
+        border: 3px solid black;
+        color: white;
+        text-align: center;
+        font: 15px Arial, sans-serif;
+    }
+    
+}

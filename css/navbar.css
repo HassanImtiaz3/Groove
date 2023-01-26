@@ -1,0 +1,239 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo{
+    font-size: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    grid-column: 1;
+
+}
+
+.nav-bar ul li {
+    grid-column: 2;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 3;
+   
+
+}
+
+.customer
+{
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 14px;
+    width: auto;
+    height: 75%;
+    margin-right: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    background-color: #6136ff;
+}
+
+
+.hamburger{
+    display: none;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+
+.nav-bar a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+
+.nav-bar li a::after{
+    content: ' ';
+    display: block;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    left: 0;
+    right: 0;
+    transform-origin: right;
+    transform: scale(0,1);
+    transition: transform ease-in-out 0.3s;
+}
+
+.nav-bar a:hover::after{
+
+    transform: scale(1,1);
+   
+}
+ 
+@media only screen and (max-width: 1320px)
+{
+    nav{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        margin: 6px 0px; 
+        margin-right: -90px;  
+    }
+
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 53px;
+        left: 0;
+        right: 0;
+        width: 450px;
+        transition: 0.2s;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .nav-bar.active
+    {
+        height: 7580px;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+       
+    }
+    .logoimg{
+        display: none;
+    }
+
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 30px auto 0 auto;
+        text-align: left;
+        transition: 0.5s;
+        opacity: 0;
+        text-align: left;
+        overflow: hidden;
+        position: relative; 
+        right: 158px;
+    }
+
+   
+    .nav-bar ul li a {
+        margin-bottom: 5px;
+        color: rgb(0, 0, 0);
+    }
+
+    .btn
+    {
+        position: absolute;
+        left: 10px;
+        bottom: 30px;
+        cursor: pointer;
+
+    }
+    .customer
+    {
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 14px;
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    margin-right: 18px;
+    padding: 2px;
+    margin: 10px;
+    background-color: #6136ff;
+    }
+
+
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    font-size: 20px;
+    bottom: 15px;
+    z-index: 996;
+    width: 50px;
+    height: 50px;
+    background: #6136ff;
+    color: white;
+    transition: all 0.4s;
+    border-radius: 65px;
+}
+
+.back-to-top:hover {
+    background-color:#6136ff;
+    color: white;
+}
+
+
+/* asdas */
+
+/* 
+.banner-sticky-visible {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.banner-sticky {
+    padding: 0.625rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    z-index: 9999;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.shadow-sm {
+    -webkit-box-shadow: 0 0.25rem 0.75rem 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 0.25rem 0.75rem 0 rgb(0 0 0 / 10%);
+}
+
+.bg-base-white {
+    background-color: rgb(255, 255, 255);
+} */
+
+
+
